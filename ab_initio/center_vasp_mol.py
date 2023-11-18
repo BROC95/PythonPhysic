@@ -1,20 +1,10 @@
-
-
-
 import sys
 import os
+
 import numpy as np
 
-
-#  quitamos espacios
-def datN(info):
-    try:
-        for i in range(3):
-            index = info.index("")
-            info.pop(index)
-        return info
-    except:
-        return info
+from ase.io.vasp import write_vasp
+from ase.io import read
 
 #  Extraemos los archivos con la extension determinada
 def identExt(path,ext):
@@ -84,12 +74,6 @@ def readFile(file,t,cu):
             fichero.write(k)
     # print(file)
         
-
-
-import os
-
-from ase.io.vasp import write_vasp
-from ase.io import read
 
 
 #  Centra los datos usando la libreria ase

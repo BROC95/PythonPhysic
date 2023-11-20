@@ -6,15 +6,7 @@ import numpy as np
 from ase.io.vasp import write_vasp
 from ase.io import read
 
-#  Extraemos los archivos con la extension determinada
-def identExt(path,ext):
-    contenido = os.listdir(path)
 
-    data = []
-    for fichero in contenido:
-        if os.path.isfile(os.path.join(path, fichero)) and fichero.endswith(ext):
-            data.append(fichero)
-    return data
 
 #  Se modifica y crea un nuevo archivo VASP con la celda trasladada y nueva matriz
 def readFile(file,t,cu):

@@ -1,6 +1,7 @@
+import os
+import shutil
+import subprocess
 
-import subprocess
-import subprocess
 
 
 
@@ -8,8 +9,7 @@ def compileFileSh():
     process = subprocess.call(['sh','./compilarVasp.sh'])
 
 
-import os
-import shutil
+
 
 
 

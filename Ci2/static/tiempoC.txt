@@ -1,0 +1,3 @@
+/home/broc95/shellCourse/configuracionI/static
+Compilando
+Finalizado

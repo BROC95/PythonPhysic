@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 23 18:50:01 2020
+
+@author: breyneroc
+"""
+
+import numpy as np 
+import matplotlib.pyplot as plt
+
+def mapaseno(x,r):
+    
+    x=np.sin(np.pi*x)*r
+    return x
+
+
+def split(arr, size):
+     arrs = []
+     while len(arr) > size:
+         pice = arr[:size]
+         arrs.append(pice)
+         arr   = arr[size:]
+     arrs.append(arr)
+     return arrs
+
+
+x=np.linspace(0,1)
+X=[e for e in range(1,10) if e %2==0]
+R=[p for p in range(1,11) ]
+
+m=len(R)
+M=len(X)
+r=[]
+Xn=[]
+[]
+for i in range (m):
+    r.append(R[i]/10)
+for i in range (M):
+    Xn.append(X[i]/10)
+    
+print(r)
+
+
+n=len(r)
+
+u=[]
+k=[]
+p=[]
+Datos=[]
+y=[]
+intercy=[]
+intercx=[]
+
+# grafica depediente de r 
+for i in range(n):
+    #u=x[i]
+    
+    y=mapaseno(x,0.2)
+    # if x[i]==y[i]:
+    #     intercy.append(y[i])
+    #     intercx.append(x[i])
+    p.append(x-y)
+        
+    plt.ylim(0,2)
+    plt.xlim(0, 1)
+    plt.plot(x,y,label=r[i])
+    plt.legend(loc=2)
+
+plt.title("Puntos fijos")
+plt.plot(x,x,'black')
+plt.xlabel(r"$x_{n}$")
+plt.ylabel(r"$x_{n+1}$")
+# # plt.savefig("PuntosFinestables.png")
+# plt.show()
+
+
+## Orbitas para cada r 
+
+xn=np.linspace(0,100,100)
+N=len(xn)
+datos=[]
+#u=[]
+
+
+# for i in range(N):
+    
+#     datos.append(u)
+#     for k in range(m):
+        
+        
+    
+        
+#         u=mapaseno(u,r[k])
+        
+ 
+
+#u=0.7000000001
+
+#M=1
+t=0.7
+datost=[]
+for i in range(M):
+    u=Xn[i]
+    
+    for k in range(N):
+        datos.append(u)
+        u=mapaseno(u,0.4)
+        # datost.append(t)
+        # t=mapaseno(t,0.9)
+    
+Q=split(datos, 100)
+P=split(datost, 100)
+P=len(Q)
+for i in range(P):
+    
+      plt.plot(split(Q[i],1),"--",label=Xn[i])     
+      # plt.plot(split(P[i],1),"--",label=Xn[i])     
+
+
+
+
+# print(Q)
+# plt.plot(xn,datos,"--",label="0.2")
+# plt.plot(xn,datost,"--",label="0.7")
+plt.ylim(0.3,1)
+plt.xlim(-2, 101)
+#plt.plot(x,y,label=r[i])
+plt.legend(loc=1)
+plt.yscale('linear')
+plt.title("Mapa seno r=0.5")
+# #plt.plot(x,x,'black')
+# #plt.annotate('local max', xy=(2, 1), xytext=(3, 1.5),
+#              #arrowprops=dict(facecolor='black', shrink=0.05),
+#              #)
+# # plt.xlabel(r"$Tiempo$")
+# # plt.ylabel(r"$x_{n}$")
+# #plt.savefig("Mpr05d.png")
+# # plt.show()

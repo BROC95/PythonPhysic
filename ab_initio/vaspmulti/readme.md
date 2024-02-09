@@ -10,6 +10,16 @@ En un archivo bash, que se encuentra en cada carpeta con los datos vasp, se defi
 ```bash
 chmod +x archivo.sh
 ```
+# Carpetas
+La estruCtura de carpetas por configuración, debe contener una carpeta estatica y dinamica, 
+
+## static
+La carpeta  debe tener los siguientes archivos en el directorio: INCAR, KPOINTS, POTCAR, POSCAR
+
+## dynamic
+La carpeta  debe tener los siguientes archivos en el directorio: INCAR, KPOINTS, POTCAR
+
+Nota: En ambas carpetas debe estar el archivo con extensión .sh , ya que es el encargado de ejecutar los comandos de vasp
 
 # Compilación
 

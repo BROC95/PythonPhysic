@@ -1,0 +1,23 @@
+SYSTEM = nanotubo C
+#general
+ISTART=0
+ICHARG=2
+ENCUT = 700
+ISMEAR=0
+SIGMA=0.05
+#electronic configuration
+ALGO=FAST
+NELEM=40
+NELEMIN=4
+EDIFF=10E-4
+#precisionpotimization
+LREAL=AUTO
+PREC=NORMAL
+IBRION=2
+POTIM=0.2
+NSW=200
+LVDW = T
+ISPIN=2
+
+npar=4
+

@@ -18,7 +18,7 @@ def compileFileSh():
 # diCi solo debe contener los directorias a recorrer
 dirCi = os.listdir()
 # Extrae solo los datos que no sean ficheros
-dirCi = [dire for dire in dirCi if not '.' in dire] 
+dirCi = (dire for dire in dirCi if not '.' in dire) # Generator 
 pathBCi = os.getcwd()
 
 

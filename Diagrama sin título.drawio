@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T03:16:12.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="NvC_FGuM3ksdzlvEEm7f" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T03:30:49.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JGRqhAYUjECDLoVE6_NQ" version="24.0.2" type="github">
   <diagram name="Página-1" id="9ZrezYljH9P2KY_Qv6a6">
     <mxGraphModel dx="1310" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,69 @@
         </mxCell>
         <mxCell id="FwkTbBhF22E6wd6E680H-42" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;X-ray radiography/CTscan&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1654" y="420" width="196" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-43" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Ultrasonography&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="460" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-44" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Die penetration&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="500" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-45" value="&lt;h2 style=&quot;font-weight: 400; margin-bottom: 0.5em; margin-top: 0.5em; font-size: 23px; font-family: Roboto, Noto, sans-serif; text-align: start;&quot;&gt;Particle/grain size,distribution, morphology,texture&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="560" width="536" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-46" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;VLM and quantitative stereology&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="640" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-47" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;SEM and quantitative stereology&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="690" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-48" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Electron backscattering spectroscopy (EBSD)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1652" y="730" width="328" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-49" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;TEM&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1652" y="780" width="53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-50" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;XRD&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1652" y="820" width="48" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-52" value="&lt;h2 style=&quot;font-weight: 400; margin-bottom: 0.5em; margin-top: 0.5em; font-size: 23px; font-family: Roboto, Noto, sans-serif; text-align: start;&quot;&gt;Phase identification/molecular structure&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="860" width="426" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-53" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;XRD&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="951" width="88" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-54" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;EBSD&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1652" y="990" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-55" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;FTIR&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1652" y="1030" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-56" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Raman spectroscopy&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="1070" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-57" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Neutron diffraction&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="1109" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-58" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Möossbauer spectroscopy&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="1150" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-60" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Nuclear magnetic resonance (NMR)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1652" y="1200" width="268" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-61" value="&lt;h2 style=&quot;font-weight: 400; margin-bottom: 0.5em; margin-top: 0.5em; font-size: 23px; font-family: Roboto, Noto, sans-serif; text-align: start;&quot;&gt;Phase transitions (e.g.,structural transformations)&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="1270" width="523" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-62" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;DTA&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="1345" width="43" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-63" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;DSC&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="1380" width="53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-64" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;TMA&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="1420" width="53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-65" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;In situ XRD&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="1460" width="86" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T03:15:20.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="pPdRZap_7yy3x-7o0jyt" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T03:16:12.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="NvC_FGuM3ksdzlvEEm7f" version="24.0.2" type="github">
   <diagram name="Página-1" id="9ZrezYljH9P2KY_Qv6a6">
     <mxGraphModel dx="1310" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,6 +114,9 @@
         </mxCell>
         <mxCell id="FwkTbBhF22E6wd6E680H-41" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;SEM&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1654" y="380" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwkTbBhF22E6wd6E680H-42" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, Noto, sans-serif; font-size: 16px; text-align: start;&quot;&gt;X-ray radiography/CTscan&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="420" width="196" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

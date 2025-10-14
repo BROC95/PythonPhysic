@@ -19,7 +19,50 @@ hist_E = pd.read_csv(f"resultados/histE/hist_E_T{T}.csv")
 hist_M = pd.read_csv(f"resultados/histM/hist_M_T{T}.csv")
 # Leer datos
 # data = pd.read_csv("termaliza.csv")
+# Media
+print(hist_E.head())
 
+import numpy as np
+mean_E = np.mean(hist_E)
+
+# Varianza poblacional (ddof=0)
+var_E = np.var(hist_E, ddof=0)
+
+# Varianza muestral (ddof=1)
+var_E_muestral = np.var(hist_E, ddof=1)
+
+print(f"⟨E⟩ = {mean_E}")
+print(f"Varianza poblacional = {var_E}")
+print(f"Varianza muestral    = {var_E_muestral}")
+
+E = hist_E.iloc[:, 0]
+M = hist_M.iloc[:, 0]
+
+# Calcular media y varianza
+mean_E = E.mean()
+var_E = E.var(ddof=0)         # Varianza poblacional
+var_E_muestral = E.var(ddof=1)  # Varianza muestral
+
+print(f"⟨E⟩ = {mean_E}")
+print(f"Varianza poblacional F = {var_E}")
+print(f"Varianza muestral    = {var_E_muestral}")
+Cv = var_E / float(T)**2
+print(Cv)
+
+mean_M = M.mean()
+var_M = M.var(ddof=0)         # Varianza poblacional
+var_M_muestral = M.var(ddof=1)  # Varianza muestral
+
+print(f"⟨M⟩ = {mean_M}")
+print(f"Varianza poblacional F = {var_M}")
+print(f"Varianza muestral    = {var_M_muestral}")
+Ch = var_M / float(T)**2
+print(Ch)
+# varianza_E = hist_E.var()
+# varianza_M = hist_M.var()
+
+# print(f"Varianza (Energe): {varianza_E}")
+# print(f"Varianza (Magne): {varianza_M}")
 # Crear figura con dos subplots
 fig, axs = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
 data = termaU
@@ -68,7 +111,9 @@ M = hist_M
 fig, axs = plt.subplots(1, 2, figsize=(12, 5))
 axs[0].hist(E, bins=50, color='tab:red')
 axs[0].set_title(f"Histograma de Energía (T={T})")
+# axs[0].axvline(varianza_E, color='gray', linestyle='--', label=f"varE ≈ {varianza_E}")
 axs[1].hist(M, bins=50, color='tab:blue')
+# axs[1].axvline(varianza_M, color='gray', linestyle='--', label=f"varM ≈ {varianza_M}")
 axs[1].set_title(f"Histograma de Magnetización (T={T})")
 plt.savefig(f"./resultados/Histogramas_{T}.png")
 
@@ -84,3 +129,26 @@ Tc = 2.269
 
 # params, _ = curve_fit(modelo, T_vals, M_vals)
 # print("Exponente crítico β =", params[0])
+
+
+
+import numpy as np
+
+# Datos de energía
+E = np.array([
+    -72.0, -72.0, -72.0, -72.0, -72.0, -72.0, -72.0, -72.0,
+    -76.0, -76.0, -76.0, -68.0, -64.0
+])
+
+# Media
+mean_E = np.mean(E)
+
+# Varianza poblacional (ddof=0)
+var_E = np.var(E, ddof=0)
+
+# Varianza muestral (ddof=1)
+var_E_muestral = np.var(E, ddof=1)
+
+print(f"⟨E⟩ = {mean_E}")
+print(f"Varianza poblacional = {var_E}")
+print(f"Varianza muestral    = {var_E_muestral}")

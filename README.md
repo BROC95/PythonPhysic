@@ -2,7 +2,7 @@
 
 Este proyecto implementa una simulación del modelo de Ising bidimensional utilizando Fortran para el núcleo computacional y Python para el análisis estadístico y visualización de resultados.
 
-Se analizaron diferentes temperaturas deade 0.1 a 5 con un tamaño de paso de dT= 0.1, para una matriz de tamaño L = 30, la simulación se realizo con unidades reducidas con una semilla (seed) aleatoria, con un tamaño de paso de simulación  500000 y paso de termalización equivalente al 20%, los graficos respecto a la temperatura se analizaron entorno a la temperatura critica Tc = 2.269 .
+Se analizaron diferentes temperaturas deade 0.1 a 5 con un tamaño de paso de dT= 0.113, para una matriz de tamaño L = 30, la simulación se realizo con unidades reducidas con una semilla (seed) aleatoria, con un tamaño de paso de simulación  500000 y paso de termalización equivalente al 20%, los graficos respecto a la temperatura se analizaron entorno a la temperatura critica Tc = 2.269 .
 
 ---
 

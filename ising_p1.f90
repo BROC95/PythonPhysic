@@ -67,7 +67,7 @@ integer :: pasos_termal , pasos_val
 !   L = 30
   pasos = 500000
   pasos_termal = pasos*0.20  ! por ejemplo, 20% de los pasos
-pasos_val = pasos-pasos_termal
+  pasos_val = pasos-pasos_termal
   aceptados = 0
   allocate(N(0:L+1, 0:L+1))
 ! print *,"Pasos de simulación: ",pasos
@@ -80,8 +80,8 @@ pasos_val = pasos-pasos_termal
   M_sum = 0.0d0
   E2_sum = 0.0d0
   M2_sum = 0.0d0
-  ! E_inst =0 
-  ! M_inst =0
+  E_inst =0 
+  M_inst =0
 
   open(unit=22, file="Terma_U.csv", status='unknown')
 open(unit=30, file="hist_E.csv", status='unknown')
@@ -100,10 +100,10 @@ write(22,*) "paso,E_prom_acum,M_prom_acum"
       aceptados = aceptados + 1
     end if
 
-write(30,*) E_inst
-write(31,*) M_inst
     call calcular_energia(N, L, E_inst)
     call calcular_magnetizacion(N, L, M_inst)
+write(30,*) E_inst
+write(31,*) M_inst
 
     E_sum = E_sum + E_inst
     E2_sum = E2_sum + E_inst**2
